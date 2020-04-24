@@ -114,6 +114,7 @@
       display: flex;
       align-items: center;
       height: 230px;
+      font-size: 200%;
       font-family: 'Spartan', sans-serif;
   }
   .button {
