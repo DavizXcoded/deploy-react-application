@@ -107,7 +107,29 @@
   
   @media only screen and (max-width: 600px) {
     .card {
-        width: 80%;
-        height: 35%;
+        width: 90%;
+        height: 40%;
     }
+    .heading {
+      display: flex;
+      align-items: center;
+      height: 180px;
+      font-family: 'Spartan', sans-serif;
+  }
+  .button {
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 70px;
+    width: 210px;
+    opacity: 3;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+  }
   }
